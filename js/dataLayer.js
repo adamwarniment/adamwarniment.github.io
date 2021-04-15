@@ -4,8 +4,8 @@ dataLayer.push({
   'event': 'page_data',
   'common': {},
   'user': {
-    'flocId': '',
-    'flocVersion': ''
+    'flocId': `${flocId}`,
+    'flocVersion': `${flocVersion}`
   },
   'page': {}
 })
