@@ -1,5 +1,5 @@
 (async () => {
-  const { id, version } = await document.interestCohort();
-  console.log('FLoC ID:', id);
-  console.log('FLoC version:', version);
+  const { flocId, flocVersion } = await document.interestCohort();
+  console.log('FLoC ID:', flocId);
+  console.log('FLoC version:', flocVersion);
 })();
